@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="./assets/styles/style.scss">
+  <link rel="icon" type="image/png" href="./assets/images/logo-16w.png">
+  <title>Pasta a la boloñesa | Detalle</title>
+</head>
+
+<body>
+
+  <nav class="desktop-nav bg-secondary">
+    <a href="index.html">
+      <div class="text-white flex align-center logo-container">
+        <picture>
+          <source type="image/svg+xml" srcset="assets/images/logo.svg">
+          <img class="app-logo" src="assets/images/logo.svg">
+        </picture>
+        <span class="ml-2">Cocina Italiana</span>
+      </div>
+    </a>
+    <ul class="mobile-hidden">
+      <li>
+        <a href="./index.html"> Inicio </a>
+      </li>
+      <li>
+        <a href="./categoria.html"> Recetas </a>
+      </li>
+      <li>
+        <a href="./presentacion.html"> Presentación </a>
+      </li>
+      <li>
+        <a href="./enlaces.html"> Enlaces </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="main-container">
+
+    <picture>
+      <source media="(max-width: 500px) and (max-resolution: 1dppx)"
+        srcset="./assets/images/pasta-500w.jpg">
+      <source media="(max-width: 500px) and (max-resolution: 1.5dppx)"
+        srcset="./assets/images/pasta-750w.jpg">
+      <!-- ¿Porqué uso esta 👆 sintáxis? Cuando pongo ambos src juntos con 1.5x Parcel se come los espacios (por lo menos en mi entorno) y el navegador parcea mal el atributo srcset, así que usé media queries en su lugar -->
+      <img class="item-img" src="./assets/images/pasta.jpg" alt="Pasta a la boloñesa">
+    </picture>
+
+    <a href="categoria.html" aria-label="Volver a recetas">
+      <i class="fas fa-arrow-left back-arrow"></i>
+    </a>
+
+    <main>
+      <div class="recipe-container slide-up">
+        <h2 class="recipe-title">Pasta a la boloñesa</h2>
+
+        <section class="recipe-ingredients">
+          <h3>Ingredientes (para 4 personas):</h3>
+          <ul class="text ingredients-list">
+            <li>400 gr de spaghetti</li>
+            <li>300 gr de carne picada (100 de magro de cerdo y 200 de babilla de ternera)</li>
+            <li>2 zanahoria</li>
+            <li>2 cebolla.</li>
+            <li>1 pimiento</li>
+            <li>100 ml de vino blanco</li>
+            <li>200 gr de salsa de tomate o tomate frito</li>
+            <li>50 ml de leche</li>
+            <li>Orégano</li>
+            <li>Unas hojas de albahaca para decorar</li>
+            <li>Aceite de oliva, sal y pimienta negra recién molida</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Preparación</h3>
+          <ol class="text preparation-list">
+            <li>
+              Para empezar a preparar la salsa boloñesa primero pela la cebolla y pícala bien
+              finita.
+            </li>
+            <li>
+              Pela la zanahoria con ayuda de un pelapatatas, córtala por en medio y pícala fina al
+              igual que has hecho con la cebolla.
+            </li>
+            <li>
+              Para cocinar la salsa te recomiendo utilizar una olla porque, además de cocinar en
+              ella la salsa, me gusta añadir la pasta al final para mezclarlo todo junto ahí y poder
+              servirla directamente en los platos de los comensales.
+            </li>
+            <li>
+              En la olla echa un poco de aceite y ponla a fuego medio-suave. Cuando el aceite esté
+              caliente incorpora la cebolla y la zanahoria junto con un poco de sal y cocínalas
+              durante unos 10 minutos o hasta que estén tiernas. La idea es que apenas se doren así
+              que si eso ocurre y todavía no están tiernas, baja la temperatura del fuego. Si se te
+              va un poco de las manos y se están dorando demasiado o quemando siempre puedes, además
+              de bajar el fuego, echar un poco de agua.
+            </li>
+            <li>
+              Añade la carne picada, mézclala con el resto de ingredientes y ayúdate de una espátula
+              para ir separándola y que no quede pegada en trozos grandes. Échale sal, pimienta
+              negra recién molida y orégano al gusto.
+            </li>
+            <li>
+              <p>
+                Cuando la carne deje de estar rosada sube el fuego para que esté alto, añade el vino
+                blanco y espera a que se evapore el alcohol, tardará solamente 2-3 minutos.
+              </p>
+              <picture>
+                <source type="image/webp" srcset="assets/images/salsa.webp">
+                <img class="fluid-img mx-auto" src="./assets/images/salsa.jpg"
+                  alt="Spagetis cociéndoce">
+              </picture>
+            </li>
+            <li>
+              Baja el fuego para que esté suave e incorpora la salsa de tomate y la leche y déjalo
+              cocer todo durante 20 minutos para que los sabores se fusionen y la carne quede
+              tierna. Si conforme avanza la cocción quieres añadirle más salsa de tomate no hay
+              problema en echársela en el momento que prefieras. Y cuando ya la tengas lista no te
+              olvides de probarla por si hay que rectificarla de sal o añadirle más orégano o
+              pimienta.
+            </li>
+            <li>
+              <p>
+                Cuando ya casi esté lista la salsa boloñesa puedes ponerte a preparar la pasta. Pon
+                abundante agua a cocer en una olla a fuego fuerte.
+              </p>
+              <picture>
+                <source type="image/webp" srcset="assets/images/cociendo.webp">
+                <img class="fluid-img mx-auto" src="./assets/images/cociendo.jpg"
+                  alt="Spagetis cociéndoce">
+              </picture>
+            </li>
+            <li>
+              Cuando hierva el agua echa una cucharadita de postre de sal y los spaghetti, y en
+              cuanto hierva el agua de nuevo (tardará muy poco) empieza a contar los minutos que
+              indique el paquete. En mi caso han sido 8 minutos.
+            </li>
+            <li>
+              Cuando los spaghetti estén listos échalos sobre un escurridor en el fregadero para que
+              suelten el agua.
+            </li>
+            <li>
+              Incorpora los spaghetti a la olla de la salsa boloñesa con el fuego ya apagado,
+              mézclalo todo bien y ya los tienes listos.
+            </li>
+          </ol>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <nav class="mobile-nav">
+    <ul>
+      <li>
+        <a href="./index.html">
+          <i class="fas fa-home fa-2x"></i>
+          <span>Inicio</span>
+        </a>
+      </li>
+      <li>
+        <a href="./categoria.html">
+          <i class="fas fa-clipboard-list fa-2x"></i>
+          <span>Recetas</span>
+        </a>
+      </li>
+      <li>
+        <a href="./presentacion.html">
+          <i class="fas fa-question-circle fa-2x"></i>
+          <span>Presentación</span>
+        </a>
+      </li>
+      <li>
+        <a href="./enlaces.html">
+          <i class="fas fa-paperclip fa-2x"></i>
+          <span>Enlaces</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer class="mobile-hidden">
+    <nav class="desktop-nav bg-secondary-darker">
+      <picture>
+        <source type="image/svg+xml" srcset="assets/images/logo.svg">
+        <img class="app-logo" src="assets/images/logo.svg">
+      </picture>
+      <ul>
+        <li>
+          <a href="./index.html"> Inicio </a>
+        </li>
+        <li>
+          <a href="./categoria.html"> Recetas </a>
+        </li>
+        <li>
+          <a href="./presentacion.html"> Presentación </a>
+        </li>
+        <li>
+          <a href="./enlaces.html"> Enlaces </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>

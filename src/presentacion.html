@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css" />
+  <link rel="stylesheet" href="./assets/styles/style.scss" />
+  <link rel="icon" type="image/png" href="./assets/images/logo-16w.png">
+  <title>Presentación | Cocina Italiana</title>
+</head>
+
+<body>
+  <nav class="desktop-nav bg-secondary">
+    <a href="index.html">
+      <div class="text-white flex align-center logo-container">
+        <picture>
+          <source type="image/svg+xml" srcset="assets/images/logo.svg">
+          <img class="app-logo" src="assets/images/logo.svg">
+        </picture>
+        <span class="ml-2">Cocina Italiana</span>
+      </div>
+    </a>
+    <ul class="mobile-hidden">
+      <li>
+        <a href="./index.html"> Inicio </a>
+      </li>
+      <li>
+        <a href="./categoria.html"> Recetas </a>
+      </li>
+      <li>
+        <a href="./presentacion.html" class="selected"> Presentación </a>
+      </li>
+      <li>
+        <a href="./enlaces.html"> Enlaces </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="font-sans">
+    <main>
+      <div class="bg-secondary">
+        <div class="max-w-1000 p-2">
+          <h1 class="title1 text-center">
+            <span>Cocina</span>
+            <span class="text-white font-italic">Italiana</span>
+          </h1>
+
+          <p class="lead font-sans text-white">
+            Pocas cocinas del mundo pueden presumir de ser tan populares y, al
+            mismo tiempo, tan poco conocidas como la italiana. La fama de la pasta
+            y la pizza hace que su nombre se pasee por todos los rincones del
+            planeta.
+          </p>
+        </div>
+      </div>
+      <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 175">
+        <path fill-opacity="1"
+          d="M0,96L80,112C160,128,320,160,480,154.7C640,149,800,107,960,101.3C1120,96,1280,128,1360,144L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+        </path>
+      </svg>
+
+      <div class="max-w-600 p-2">
+        <p>
+          Pocos saben que son sólo las piezas más visibles de un gigantesco y
+          variado escaparate gastronómico; una pequeña muestra de la increíble
+          riqueza culinaria que reúnen las veinte regiones que conorman
+          Italia.
+        </p>
+
+        <p>
+          Se a muchas de puede dividir la cocina italiana en dos grandes
+          familias: la norteña, continental y cercana a muchas de las
+          corrientes centroeuropeas, y la mediterránea, propia del centro, el
+          sur y las dos grandes islas, Sicilia y Cerdeña; rica en especies y
+          aromas, refrescante y con pocos términos medios; a menudo barroca y
+          en otras ocasiones de una sencillez meridiana.
+        </p>
+
+        <picture>
+          <source type="image/webp" srcset="./assets/images/albaca.webp">
+          <img class="mx-auto fluid-img" src="assets/images/albaca.jpg" alt="" />
+        </picture>
+
+        <section>
+          <h2 class="title2">
+            <span class="text-secondary font-italic">Italia</span>
+            <small>septentrional</small>
+          </h2>
+
+          <p>
+            La cocina del norte de Italia se agrupa en dos grandes áreas. La
+            primera, el bloque nororiental formado por las regiones del
+            Trentino-Alto Adigio y Fruit-Venecia Julia, demuestra una
+            importante influencia de la cocina austro-húngara, que se concreta
+            en propuestas como la sopa agria, el chucrut y los gnocchi,
+            descendientes de los nockerln, tal como sucede entre los
+            tortellini y los maultaschen alemanes.
+          </p>
+
+          <picture>
+            <source type="image/webp" srcset="./assets/images/pasta-seca.webp">
+            <img class="mx-auto fluid-img" src="./assets/images/pasta-seca.jpg" alt="" />
+          </picture>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <nav class="mobile-nav">
+    <ul>
+      <li>
+        <a href="./index.html">
+          <i class="fas fa-home fa-2x"></i>
+          <span>Inicio</span>
+        </a>
+      </li>
+      <li>
+        <a href="./categoria.html">
+          <i class="fas fa-clipboard-list fa-2x"></i>
+          <span>Recetas</span>
+        </a>
+      </li>
+      <li>
+        <a href="./presentacion.html" class="selected">
+          <i class="fas fa-question-circle fa-2x"></i>
+          <span>Presentación</span>
+        </a>
+      </li>
+      <li>
+        <a href="./enlaces.html">
+          <i class="fas fa-paperclip fa-2x"></i>
+          <span>Enlaces</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer class="mobile-hidden">
+    <nav class="desktop-nav bg-secondary-darker">
+      <picture>
+        <source type="image/svg+xml" srcset="assets/images/logo.svg">
+        <img class="app-logo" src="assets/images/logo.svg">
+      </picture>
+      <ul>
+        <li>
+          <a href="./index.html"> Inicio </a>
+        </li>
+        <li>
+          <a href="./categoria.html"> Recetas </a>
+        </li>
+        <li>
+          <a href="./presentacion.html" class="selected"> Presentación </a>
+        </li>
+        <li>
+          <a href="./enlaces.html"> Enlaces </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>

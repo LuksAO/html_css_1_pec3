@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css" />
+  <link rel="stylesheet" href="./assets/styles/style.scss" />
+  <link rel="icon" type="image/png" href="./assets/images/logo-16w.png">
+  <title>Comida Italiana | Portada</title>
+</head>
+
+<body>
+
+  <picture>
+    <source media="(max-width: 500px)" srcset="./assets/images/background-500w.jpg">
+    <img class="index-background" src="./assets/images/background-1080w.jpg" alt="Torre de pizza">
+  </picture>
+
+  <picture>
+    <source media="(max-width: 500px)" srcset="./assets/images/bg2-500w.jpg">
+    <img id="bg2" class="index-background" src="./assets/images/bg2-1000w.jpg">
+  </picture>
+
+  <picture>
+    <source media="(max-width: 500px)" srcset="./assets/images/bg3-500w.jpg">
+    <img id="bg3" class="index-background" src="./assets/images/bg3-1000w.jpg">
+  </picture>
+
+  <div class="flex flex-column full-screen">
+    <nav class="desktop-nav bg-secondary">
+      <a href="index.html">
+        <div class="text-white flex align-center logo-container">
+          <picture>
+            <source type="image/svg+xml" srcset="assets/images/logo.svg">
+            <img class="app-logo" src="assets/images/logo.svg">
+          </picture>
+          <span class="ml-2">Cocina Italiana</span>
+        </div>
+      </a>
+      <ul class="mobile-hidden">
+        <li>
+          <a href="./index.html" class="selected"> Inicio </a>
+        </li>
+        <li>
+          <a href="./categoria.html"> Recetas </a>
+        </li>
+        <li>
+          <a href="./presentacion.html"> Presentación </a>
+        </li>
+        <li>
+          <a href="./enlaces.html"> Enlaces </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="index-container flex-grow">
+      <div class="title">
+        <div class="food-title slide-right">Cocina</div>
+
+        <div class="italian-title slide-left">Italiana</div>
+      </div>
+      <a href="categoria.html">
+        <button class="mt-2">Ver recetas</button>
+      </a>
+    </div>
+
+    <nav class="mobile-nav">
+      <ul>
+        <li>
+          <a href="./index.html" class="selected">
+            <i class="fas fa-home fa-2x"></i>
+            <span>Inicio</span>
+          </a>
+        </li>
+        <li>
+          <a href="./categoria.html">
+            <i class="fas fa-clipboard-list fa-2x"></i>
+            <span>Recetas</span>
+          </a>
+        </li>
+        <li>
+          <a href="./presentacion.html">
+            <i class="fas fa-question-circle fa-2x"></i>
+            <span>Presentación</span>
+          </a>
+        </li>
+        <li>
+          <a href="./enlaces.html">
+            <i class="fas fa-paperclip fa-2x"></i>
+            <span>Enlaces</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <footer class="mobile-hidden">
+      <nav class="desktop-nav bg-secondary-darker">
+        <picture>
+          <source type="image/svg+xml" srcset="assets/images/logo.svg">
+          <img class="app-logo" src="assets/images/logo.svg">
+        </picture>
+        <ul>
+          <li>
+            <a href="./index.html" class="selected"> Inicio </a>
+          </li>
+          <li>
+            <a href="./categoria.html"> Recetas </a>
+          </li>
+          <li>
+            <a href="./presentacion.html"> Presentación </a>
+          </li>
+          <li>
+            <a href="./enlaces.html"> Enlaces </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+
+  <script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>
