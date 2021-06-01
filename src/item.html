@@ -17,7 +17,7 @@
       <div class="text-white flex align-center logo-container">
         <picture>
           <source type="image/svg+xml" srcset="assets/images/logo.svg">
-          <img class="app-logo" src="assets/images/logo.svg">
+          <img class="app-logo" src="assets/images/logo.svg" loading="lazy">
         </picture>
         <span class="ml-2">Cocina Italiana</span>
       </div>
@@ -46,7 +46,8 @@
       <source media="(max-width: 500px) and (max-resolution: 1.5dppx)"
         srcset="./assets/images/pasta-750w.jpg">
       <!-- ¿Porqué uso esta 👆 sintáxis? Cuando pongo ambos src juntos con 1.5x Parcel se come los espacios (por lo menos en mi entorno) y el navegador parcea mal el atributo srcset, así que usé media queries en su lugar -->
-      <img class="item-img" src="./assets/images/pasta.jpg" alt="Pasta a la boloñesa">
+      <img class="item-img" src="./assets/images/pasta.jpg" alt="Pasta a la boloñesa"
+        loading="lazy">
     </picture>
 
     <a href="categoria.html" aria-label="Volver a recetas">
@@ -110,7 +111,7 @@
               </p>
               <picture>
                 <source type="image/webp" srcset="assets/images/salsa.webp">
-                <img class="fluid-img mx-auto" src="./assets/images/salsa.jpg"
+                <img class="fluid-img mx-auto" src="./assets/images/salsa.jpg" loading="lazy"
                   alt="Spagetis cociéndoce">
               </picture>
             </li>
@@ -129,7 +130,7 @@
               </p>
               <picture>
                 <source type="image/webp" srcset="assets/images/cociendo.webp">
-                <img class="fluid-img mx-auto" src="./assets/images/cociendo.jpg"
+                <img class="fluid-img mx-auto" src="./assets/images/cociendo.jpg" loading="lazy"
                   alt="Spagetis cociéndoce">
               </picture>
             </li>
@@ -185,7 +186,7 @@
     <nav class="desktop-nav bg-secondary-darker">
       <picture>
         <source type="image/svg+xml" srcset="assets/images/logo.svg">
-        <img class="app-logo" src="assets/images/logo.svg">
+        <img class="app-logo" src="assets/images/logo.svg" loading="lazy">
       </picture>
       <ul>
         <li>
@@ -204,7 +205,7 @@
     </nav>
   </footer>
 
-  <script src="./assets/scripts/main.js"></script>
+  <script async src="./assets/scripts/main.js"></script>
 </body>
 
 </html>
